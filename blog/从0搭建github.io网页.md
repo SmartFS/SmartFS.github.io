@@ -15,9 +15,9 @@
 
 我的博客网址为🔗[https://smartfs.github.io](https://smartfs.github.io/)
 
-博客的源码仓库网址为[https://github.com/smartfs/PerCheung.github.io](https://github.com/smartfs/PerCheung.github.io)
+博客的源码仓库网址为[https://github.com/smartfs/smartfs.github.io](https://github.com/smartfs/smartfs.github.io)
 
-搭建源码页面的仓库网址为[https://github.com/smartfs/PerCheung.github.io.page](https://github.com/smartfs/PerCheung.github.io.page)
+搭建源码页面的仓库网址为[https://github.com/smartfs/smartfs.github.io.page](https://github.com/smartfs/smartfs.github.io.page)
 
 ### 1.2 页面展示
 
@@ -64,7 +64,7 @@
 然后我跳转我自己的主页[https://smartfs.github.io](https://smartfs.github.io/)，我发现，页面上有两行字
 
 ```html
-<h1>PerCheung.github.io</h1>
+<h1>smartfs.github.io</h1>
 创建自己的GitHub博客
 ```
 
@@ -120,17 +120,17 @@ markdown: kramdown
 
 继续加文件。加`.gitignore`，加`LICENSE`。
 
-## 4.PerCheung.github.io.page
+## 4.smartfs.github.io.page
 
-> 下面开始用vue画页面，仓库地址在[PerCheung.github.io.page](https://github.com/smartfs/PerCheung.github.io.page)
+> 下面开始用vue画页面，仓库地址在[smartfs.github.io.page](https://github.com/smartfs/smartfs.github.io.page)
 
 ### 4.1 文件目录介绍
 
-我将PerCheung.github.io里的文件都放在vue项目的public下了，比如各个建的`.gitignore`，`LICENSE`，`_config.yml`，`README.md`，然后我将我的博客文章放到了`public/blog`下，将博客文章引用的图片放到`public/blogImg`下。
+我将smartfs.github.io里的文件都放在vue项目的public下了，比如各个建的`.gitignore`，`LICENSE`，`_config.yml`，`README.md`，然后我将我的博客文章放到了`public/blog`下，将博客文章引用的图片放到`public/blogImg`下。
 
 ![image-20240102231532720](https://smartfs.github.io/blogImg/202401022315853.png)
 
-### 4.2 打包替换PerCheung.github.io
+### 4.2 打包替换smartfs.github.io
 
 用项目里的README.md文件中的打包指令会打一个dist文件夹。
 
@@ -138,7 +138,7 @@ markdown: kramdown
 
 ![image-20240102232103882](https://smartfs.github.io/blogImg/202401022321016.png)
 
-> 用`dist`的内容替换掉`PerCheung.github.io`里所有的内容即可。
+> 用`dist`的内容替换掉`smartfs.github.io`里所有的内容即可。
 
 ![image-20240102232247956](https://smartfs.github.io/blogImg/202401022322101.png)
 

@@ -55,7 +55,7 @@
         </div>
       </div>
     </el-main>
-    <el-footer class="home_footer">Copyright © 2023 Peter Cheung 保留所有权利</el-footer>
+    <el-footer class="home_footer">Copyright © 2024 smart-fs 保留所有权利</el-footer>
   </el-container>
 </template>
 

@@ -22,7 +22,7 @@ git --version
 配置用户名（记得用你自己的）
 
 ```bash
-git config --global user.name "PerCheung"
+git config --global user.name "smartfs"
 ```
 
 配置邮箱（记得用你自己的）
@@ -89,5 +89,5 @@ XCOf3EjGYg2ZuHTmThf98d C2243736958@qq.com
 找个空文件夹，在里面执行下面的指令拉取代码
 
 ```bash
-git clone git@github.com:PerCheung/tencent.git
+git clone git@github.com:smartfs/tencent.git
 ```

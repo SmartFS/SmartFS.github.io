@@ -39,68 +39,68 @@
                  @mouseout="reset_toc"
                  :style="{ width: isHovered_toc ? '100px' : '70px' }"/>
           </el-link>
-          <el-link style="width: 100px;height: 100px" href="https://blog.csdn.net/weixin_43982359" target="_blank"
-                   :underline="false">
-            <img src="@/assets/csdn.png"
-                 alt="CSDN"
-                 @mouseover="increase_csdn"
-                 @mouseout="reset_csdn"
-                 :style="{ width: isHovered_csdn ? '100px' : '70px' }"/>
-          </el-link>
-          <el-link style="width: 100px;height: 100px" href="https://percheung.vercel.app" target="_blank"
-                   :underline="false">
-            <img src="@/assets/openai.png"
-                 alt="openai"
-                 @mouseover="increase_openai"
-                 @mouseout="reset_openai"
-                 :style="{ width: isHovered_openai ? '100px' : '70px' }"/>
-          </el-link>
-          <el-link style="width: 100px;height: 100px"
-                   href="https://cowtransfer.com/i/storage"
-                   target="_blank"
-                   :underline="false">
-            <img src="@/assets/nainiu.png"
-                 alt="openai"
-                 @mouseover="increase_nainiu"
-                 @mouseout="reset_nainiu"
-                 :style="{ width: isHovered_nainiu ? '100px' : '70px' }"/>
-          </el-link>
-          <el-link style="width: 100px;height: 100px" href="https://www.openai-hk.com/m/ai" target="_blank"
-                   :underline="false">
-            <img src="https://www.openai-hk.com/m/static/img/open.2ef5b3da.png"
-                 alt="openai-hk"
-                 @mouseover="increase_openai_hk"
-                 @mouseout="reset_openai_hk"
-                 :style="{ width: isHovered_openai_hk ? '100px' : '70px' }"/>
-          </el-link>
-          <el-link style="width: 100px;height: 100px" href="https://openkey.cloud/topup" target="_blank"
-                   :underline="false">
-            <img src="@/assets/openkey.png"
-                 alt="openkey"
-                 @mouseover="increase_openkey"
-                 @mouseout="reset_openkey"
-                 :style="{ width: isHovered_openkey ? '100px' : '70px' }"/>
-          </el-link>
-          <el-link style="width: 100px;height: 100px"
-                   href="https://console.cloud.tencent.com/lighthouse/instance/index?rid=4"
-                   target="_blank"
-                   :underline="false">
-            <img src="@/assets/tencent.png"
-                 alt="tencent"
-                 @mouseover="increase_tencent"
-                 @mouseout="reset_tencent"
-                 :style="{ width: isHovered_tencent ? '100px' : '70px' }"/>
-          </el-link>
-          <el-link style="width: 100px;height: 100px"
-                   href="https://space.bilibili.com/95256449/video"
-                   target="_blank"
-                   :underline="false">
-            <img src="@/assets/bilibili.png"
-                 alt="bilibili"
-                 @mouseover="increase_bilibili"
-                 @mouseout="reset_bilibili"
-                 :style="{ width: isHovered_bilibili ? '100px' : '70px' }"/>
-          </el-link>
+<!--          <el-link style="width: 100px;height: 100px" href="https://blog.csdn.net/weixin_43982359" target="_blank"-->
+<!--                   :underline="false">-->
+<!--            <img src="@/assets/csdn.png"-->
+<!--                 alt="CSDN"-->
+<!--                 @mouseover="increase_csdn"-->
+<!--                 @mouseout="reset_csdn"-->
+<!--                 :style="{ width: isHovered_csdn ? '100px' : '70px' }"/>-->
+<!--          </el-link>-->
+<!--          <el-link style="width: 100px;height: 100px" href="https://smartfs.vercel.app" target="_blank"-->
+<!--                   :underline="false">-->
+<!--            <img src="@/assets/openai.png"-->
+<!--                 alt="openai"-->
+<!--                 @mouseover="increase_openai"-->
+<!--                 @mouseout="reset_openai"-->
+<!--                 :style="{ width: isHovered_openai ? '100px' : '70px' }"/>-->
+<!--          </el-link>-->
+<!--          <el-link style="width: 100px;height: 100px"-->
+<!--                   href="https://cowtransfer.com/i/storage"-->
+<!--                   target="_blank"-->
+<!--                   :underline="false">-->
+<!--            <img src="@/assets/nainiu.png"-->
+<!--                 alt="openai"-->
+<!--                 @mouseover="increase_nainiu"-->
+<!--                 @mouseout="reset_nainiu"-->
+<!--                 :style="{ width: isHovered_nainiu ? '100px' : '70px' }"/>-->
+<!--          </el-link>-->
+<!--          <el-link style="width: 100px;height: 100px" href="https://www.openai-hk.com/m/ai" target="_blank"-->
+<!--                   :underline="false">-->
+<!--            <img src="https://www.openai-hk.com/m/static/img/open.2ef5b3da.png"-->
+<!--                 alt="openai-hk"-->
+<!--                 @mouseover="increase_openai_hk"-->
+<!--                 @mouseout="reset_openai_hk"-->
+<!--                 :style="{ width: isHovered_openai_hk ? '100px' : '70px' }"/>-->
+<!--          </el-link>-->
+<!--          <el-link style="width: 100px;height: 100px" href="https://openkey.cloud/topup" target="_blank"-->
+<!--                   :underline="false">-->
+<!--            <img src="@/assets/openkey.png"-->
+<!--                 alt="openkey"-->
+<!--                 @mouseover="increase_openkey"-->
+<!--                 @mouseout="reset_openkey"-->
+<!--                 :style="{ width: isHovered_openkey ? '100px' : '70px' }"/>-->
+<!--          </el-link>-->
+<!--          <el-link style="width: 100px;height: 100px"-->
+<!--                   href="https://console.cloud.tencent.com/lighthouse/instance/index?rid=4"-->
+<!--                   target="_blank"-->
+<!--                   :underline="false">-->
+<!--            <img src="@/assets/tencent.png"-->
+<!--                 alt="tencent"-->
+<!--                 @mouseover="increase_tencent"-->
+<!--                 @mouseout="reset_tencent"-->
+<!--                 :style="{ width: isHovered_tencent ? '100px' : '70px' }"/>-->
+<!--          </el-link>-->
+<!--          <el-link style="width: 100px;height: 100px"-->
+<!--                   href="https://space.bilibili.com/95256449/video"-->
+<!--                   target="_blank"-->
+<!--                   :underline="false">-->
+<!--            <img src="@/assets/bilibili.png"-->
+<!--                 alt="bilibili"-->
+<!--                 @mouseover="increase_bilibili"-->
+<!--                 @mouseout="reset_bilibili"-->
+<!--                 :style="{ width: isHovered_bilibili ? '100px' : '70px' }"/>-->
+<!--          </el-link>-->
         </el-drawer>
       </el-main>
       <el-footer class="home_footer">

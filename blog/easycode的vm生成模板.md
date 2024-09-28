@@ -31,19 +31,19 @@
 
 > 列配置文件
 
-[下载链接🔗](https://raw.githubusercontent.com/PerCheung/vmCreate/main/vm/ColumnConfig/EasyCodeConfig.json)
+[下载链接🔗](https://raw.githubusercontent.com/smartfs/vmCreate/main/vm/ColumnConfig/EasyCodeConfig.json)
 
 ### 2.2 GlobalConfig
 
 > 全局配置，能修复easycode在idea2023版本以后生成的mapper没有逗号的错误
 
-[下载链接🔗](https://raw.githubusercontent.com/PerCheung/vmCreate/main/vm/GlobalConfig/EasyCodeConfig.json)
+[下载链接🔗](https://raw.githubusercontent.com/smartfs/vmCreate/main/vm/GlobalConfig/EasyCodeConfig.json)
 
 ### 2.3 TypeMapper
 
 > 控制easy code的Java映射sql的关系
 
-[下载链接🔗](https://raw.githubusercontent.com/PerCheung/vmCreate/main/vm/TypeMapper/EasyCodeConfig.json)
+[下载链接🔗](https://raw.githubusercontent.com/smartfs/vmCreate/main/vm/TypeMapper/EasyCodeConfig.json)
 
 ### 2.4 Template
 
@@ -51,22 +51,22 @@
 
 > 这里是<img src="https://smartfs.github.io/blogImg/MYBATIS.png" width="30px" alt="" />mybatis的增删改查代码
 
-[下载链接🔗](https://raw.githubusercontent.com/PerCheung/vmCreate/main/vm/Template/mybatis-mvc/EasyCodeConfig.json)
+[下载链接🔗](https://raw.githubusercontent.com/smartfs/vmCreate/main/vm/Template/mybatis-mvc/EasyCodeConfig.json)
 
 #### 2.4.2 mybatis-config
 
 > <img src="https://smartfs.github.io/blogImg/mybatisplus.png" width="30px" alt="" style="transform: scaleX(-1);"/><img src="https://smartfs.github.io/blogImg/MYBATIS.png" width="30px" alt=""/>mybatis和mybatis-plus可以共用这个，里面是配置类
 
-[下载链接🔗](https://raw.githubusercontent.com/PerCheung/vmCreate/main/vm/Template/mybatis-config/EasyCodeConfig.json)
+[下载链接🔗](https://raw.githubusercontent.com/smartfs/vmCreate/main/vm/Template/mybatis-config/EasyCodeConfig.json)
 
 #### 2.4.3 mybatis-util
 
 > <img src="https://smartfs.github.io/blogImg/mybatisplus.png" width="30px" alt="" style="transform: scaleX(-1);"/><img src="https://smartfs.github.io/blogImg/MYBATIS.png" width="30px" alt=""/>mybatis和mybatis-plus可以共用，这是我自己写的一些工具类
 
-[下载链接🔗](https://raw.githubusercontent.com/PerCheung/vmCreate/main/vm/Template/mybatis-util/EasyCodeConfig.json)
+[下载链接🔗](https://raw.githubusercontent.com/smartfs/vmCreate/main/vm/Template/mybatis-util/EasyCodeConfig.json)
 
 #### 2.4.4 mybatis-plus-config
 
 > <img src="https://smartfs.github.io/blogImg/mybatisplus.png" width="30px" alt=""/>执行后将mybatis项目升成mybatis-plus项目
 
-[下载链接🔗](https://raw.githubusercontent.com/PerCheung/vmCreate/main/vm/Template/mybatis-util/EasyCodeConfig.json)
+[下载链接🔗](https://raw.githubusercontent.com/smartfs/vmCreate/main/vm/Template/mybatis-util/EasyCodeConfig.json)
